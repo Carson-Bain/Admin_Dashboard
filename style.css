@@ -35,7 +35,7 @@
 }
 
 .logo-container{
-    border: solid red 1px;
+    /* border: solid red 1px; */
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -44,9 +44,9 @@
 }
 
 .tabs-container{
-    border: solid red 1px;
+    /* border: solid red 1px; */
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1.2fr 3fr;
     grid-template-rows: repeat(6, 1fr);
 }
 
@@ -55,13 +55,35 @@
     width: 40px
 }
 
+.tabs-container svg{
+    align-self: center;
+    justify-self: end;
+}
+
+.tabs-container h2{
+    align-self: center;
+    justify-self: center;
+}
+
 .help-container{
-    border: solid red 1px;
+    margin-top: 2rem;
+    height: 200px;
+    /* border: solid red 1px; */
+    display: grid;
+    grid-template-columns: 1.2fr 3fr;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
 }
 
 .help-container svg{
-    height: 40px;
-    width: 40px
+    height: 30px;
+    width: 30px;
+    justify-self: end;
+}
+
+.help-container h2{
+    font-size: 1.2em;
 }
 
 /* end sidebar */
